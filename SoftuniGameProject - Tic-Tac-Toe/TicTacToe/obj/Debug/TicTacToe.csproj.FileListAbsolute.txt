@@ -1,0 +1,1 @@
+c:\users\deny\documents\visual studio 2015\Projects\SoftuniGameProject - Tic-Tac-Toe\TicTacToe\bin\Debug\TicTacToe.exe.config
