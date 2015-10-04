@@ -1,0 +1,6 @@
+E:\Projects\BoardSoftUniProjectConsole\BoardSoftUniProjectConsole\bin\Debug\BoardSoftUniProjectConsole.exe.config
+E:\Projects\BoardSoftUniProjectConsole\BoardSoftUniProjectConsole\bin\Debug\BoardSoftUniProjectConsole.exe
+E:\Projects\BoardSoftUniProjectConsole\BoardSoftUniProjectConsole\bin\Debug\BoardSoftUniProjectConsole.pdb
+E:\Projects\BoardSoftUniProjectConsole\BoardSoftUniProjectConsole\obj\Debug\BoardSoftUniProjectConsole.csprojResolveAssemblyReference.cache
+E:\Projects\BoardSoftUniProjectConsole\BoardSoftUniProjectConsole\obj\Debug\BoardSoftUniProjectConsole.exe
+E:\Projects\BoardSoftUniProjectConsole\BoardSoftUniProjectConsole\obj\Debug\BoardSoftUniProjectConsole.pdb
