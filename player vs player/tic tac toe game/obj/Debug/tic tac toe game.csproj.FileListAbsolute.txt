@@ -1,0 +1,6 @@
+d:\documents\visual studio 2013\Projects\tic tac toe game\tic tac toe game\bin\Debug\tic tac toe game.exe.config
+d:\documents\visual studio 2013\Projects\tic tac toe game\tic tac toe game\obj\Debug\tic tac toe game.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2013\Projects\tic tac toe game\tic tac toe game\bin\Debug\tic tac toe game.exe
+d:\documents\visual studio 2013\Projects\tic tac toe game\tic tac toe game\bin\Debug\tic tac toe game.pdb
+d:\documents\visual studio 2013\Projects\tic tac toe game\tic tac toe game\obj\Debug\tic tac toe game.exe
+d:\documents\visual studio 2013\Projects\tic tac toe game\tic tac toe game\obj\Debug\tic tac toe game.pdb
