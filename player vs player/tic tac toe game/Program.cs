@@ -41,9 +41,9 @@ class TicTacToe
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("Enter a name for Player 1 : ");
+            Console.Write("Enter a name for Player 1: ");
             playerOneName = Console.ReadLine();
-            Console.Write("Enter a name for Player 2 : ");
+            Console.Write("Enter a name for Player 2: ");
             playerTurnTwoName = Console.ReadLine();
 
             do
