@@ -31,7 +31,9 @@ class TicTacToe
         Console.WriteLine(" |     |     |     |".PadLeft(37));
         Console.WriteLine("*-----*-----*-----*".PadLeft(37));
     }
+    static void WinCheck ()
     // Horizontal.
+    {
         if (area[1] == area[2] && area[2] == area[3])
         {
             return 1;
@@ -44,53 +46,7 @@ class TicTacToe
         {
             return 1;
         }
-        // ..
-       
-        // Vertical.    
-        else if (area[1] == area[4] && area[4] == area[7])
-        {
-            return 1;
-        }
-        else if (area[2] == area[5] && area[5] == area[8])
-        {
-            return 1;
-        }
-        else if (area[3] == area[6] && area[6] == area[9])
-        {
-            return 1;
-        }
-        // ..
- 
-        // Diagonal.
-        else if (area[1] == area[5] && area[5] == area[9])
-        {
-            return 1;
-        }
-        else if (area[3] == area[5] && area[5] == area[7])
-        {
-            return 1;
-        }
-        // ..
- 
-        // Check for Draw.
-        else if (area[1] != '1' 
-            && area[2] != '2' 
-            && area[3] != '3' 
-            && area[4] != '4' 
-            && area[5] != '5' 
-            && area[6] != '6' 
-            && area[7] != '7' 
-            && area[8] != '8' 
-            && area[9] != '9')
-        {
-            return -1;
-        }
- 
-        else
-        {
-            return 0;
-        }
-        //..
+        
     }
 
 private static void EndGame()
