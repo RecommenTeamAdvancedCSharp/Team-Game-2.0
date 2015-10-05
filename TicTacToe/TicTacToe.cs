@@ -31,7 +31,7 @@ class TicTacToe
         Console.WriteLine(" |     |     |     |".PadLeft(37));
         Console.WriteLine("*-----*-----*-----*".PadLeft(37));
     }
-   
+
     private static void EndGame()
     {
 
@@ -48,5 +48,68 @@ class TicTacToe
             System.Environment.Exit(0);
         }
 
+    }
+
+    static void PlayerVsComputer()
+    {
+        Console.BufferHeight = Console.WindowHeight;
+        Console.Clear();
+        Console.Write("Enter name for Player : ");
+        firstPlayerName = Console.ReadLine();
+
+        do
+        {
+            Console.Clear();
+            Console.WriteLine();
+            Console.WriteLine(@"TIC-TAC-TOE GAME".PadLeft(36));
+            Console.WriteLine("{0} (X)  -  Computer (O)", firstPlayerName.PadLeft(20));
+            Console.WriteLine();
+
+            if (isPlayerTurn)
+            {
+                Console.WriteLine("On turn : {0}\n".PadLeft(35), firstPlayerName);
+            }
+            else
+            {
+                Console.WriteLine("On turn : Computer\n".PadLeft(37));
+            }
+
+            Board();
+            Console.Write("Selection : ".PadLeft(33));
+            Random r = new Random();
+            int computerNumber = r.Next(1, 9);
+
+            if (isPlayerTurn)
+            {
+                playerTurnChoise = int.Parse(Console.ReadLine());
+
+                if (position[playerTurnChoise] != 'X' && position[playerTurnChoise] != 'O')
+                {
+                    position[playerTurnChoise] = 'X';
+                    isPlayerTurn = false;
+                }
+                else
+                {
+                    Console.WriteLine("Sorry the box {0} is already marked with {1}\n", playerTurnChoise, position[playerTurnChoise]);
+                    Console.WriteLine("Please wait 2 seconds. Board is loading again...");
+                    Thread.Sleep(2000);
+                }
+            }
+            else
+            {
+                computerChoise = computerNumber;
+
+                if (position[computerChoise] != 'X' && position[computerChoise] != 'O')
+                {
+                    Thread.Sleep(2000);
+                    position[computerChoise] = 'O';
+                    isPlayerTurn = true;
+                }
+            }
+
+            winingCondition = CheckWin();
+        }
+
+        while (winingCondition != 1 && winingCondition != -1);
     }
 }
