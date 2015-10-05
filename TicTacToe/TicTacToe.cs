@@ -31,4 +31,22 @@ class TicTacToe
         Console.WriteLine(" |     |     |     |".PadLeft(37));
         Console.WriteLine("*-----*-----*-----*".PadLeft(37));
     }
+   
+    private static void EndGame()
+    {
+
+        Console.WriteLine("Do you want to play again? Enter button \"Y\" for yes and \"N\" for no :)");
+
+        ConsoleKeyInfo endGameKey = Console.ReadKey();
+
+        if (endGameKey.Key == ConsoleKey.Y)
+        {
+            Main();
+        }
+        if (endGameKey.Key == ConsoleKey.N)
+        {
+            System.Environment.Exit(0);
+        }
+
+    }
 }
