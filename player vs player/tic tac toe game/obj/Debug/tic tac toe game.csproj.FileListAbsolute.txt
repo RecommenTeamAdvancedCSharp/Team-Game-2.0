@@ -4,3 +4,6 @@ d:\documents\visual studio 2013\Projects\tic tac toe game\tic tac toe game\bin\D
 d:\documents\visual studio 2013\Projects\tic tac toe game\tic tac toe game\bin\Debug\tic tac toe game.pdb
 d:\documents\visual studio 2013\Projects\tic tac toe game\tic tac toe game\obj\Debug\tic tac toe game.exe
 d:\documents\visual studio 2013\Projects\tic tac toe game\tic tac toe game\obj\Debug\tic tac toe game.pdb
+C:\Users\User\Desktop\GitHub\Tic TacToe game\Team-Game-2.0\player vs player\tic tac toe game\bin\Debug\tic tac toe game.exe.config
+C:\Users\User\Desktop\GitHub\Tic TacToe game\Team-Game-2.0\player vs player\tic tac toe game\obj\Debug\tic tac toe game.exe
+C:\Users\User\Desktop\GitHub\Tic TacToe game\Team-Game-2.0\player vs player\tic tac toe game\obj\Debug\tic tac toe game.pdb
