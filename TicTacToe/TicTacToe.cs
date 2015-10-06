@@ -19,20 +19,20 @@ class TicTacToe
     {
         Console.WriteLine(" *-----*-----*-----*".PadLeft(37));
         Console.WriteLine(" |     |     |     |".PadLeft(37));
-        Console.WriteLine(" |  {0}  |  {1}  |  {2}  |".PadLeft(43), position[1], position[2], position[3]);
+        Console.WriteLine(" |  {0}  |  {1}  |  {2}  |".PadLeft(43), area[1], area[2], area[3]);
         Console.WriteLine(" |     |     |     |".PadLeft(37));
         Console.WriteLine("*-----*-----*-----*".PadLeft(37));
         Console.WriteLine(" |     |     |     |".PadLeft(37));
-        Console.WriteLine(" |  {0}  |  {1}  |  {2}  |".PadLeft(43), position[4], position[5], position[6]);
+        Console.WriteLine(" |  {0}  |  {1}  |  {2}  |".PadLeft(43), area[4], area[5], area[6]);
         Console.WriteLine(" |     |     |     |".PadLeft(37));
         Console.WriteLine("*-----*-----*-----*".PadLeft(37));
         Console.WriteLine(" |     |     |     |".PadLeft(37));
-        Console.WriteLine(" |  {0}  |  {1}  |  {2}  |".PadLeft(43), position[7], position[8], position[9]);
+        Console.WriteLine(" |  {0}  |  {1}  |  {2}  |".PadLeft(43), area[7], area[8], area[9]);
         Console.WriteLine(" |     |     |     |".PadLeft(37));
         Console.WriteLine("*-----*-----*-----*".PadLeft(37));
     }
     static void WinCheck ()
-    // Horizontal.
+    // Horizontal
     {
         if (area[1] == area[2] && area[2] == area[3])
         {
@@ -46,7 +46,20 @@ class TicTacToe
         {
             return 1;
         }
-        
+        // Vertical.    
+        else if (area[1] == area[4] && area[4] == area[7])
+        {
+            return 1;
+        }
+        else if (area[2] == area[5] && area[5] == area[8])
+        {
+            return 1;
+        }
+        else if (area[3] == area[6] && area[6] == area[9])
+        {
+            return 1;
+        }
+
     }
 
 private static void EndGame()
